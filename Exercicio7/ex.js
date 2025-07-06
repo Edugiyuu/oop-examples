@@ -22,7 +22,6 @@ class Livro {
     this.#disponivel = disponivel;
   }
 
-  // GETTERS
   get titulo() {
     return this.#titulo;
   }
