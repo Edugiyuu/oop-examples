@@ -46,6 +46,9 @@ class Pedido {
 
 const prato1 = new Prato("Pizza", 29.90);
 const prato2 = new Prato("Hambúrguer", 19.90);
+const prato3 = new Prato("Salada", 15.00);
 
 const pedido = new Pedido("João", [prato1, prato2]);
+pedido.resumoPedido();
+pedido.adicionarItem(prato3);
 pedido.resumoPedido();
